@@ -26,5 +26,7 @@ public class App {
         Mujer mujer = new Mujer (prod,"Semana",36,"Rojo",5);
 
         System.out.println("nro calzado deportivo:" +deportivo.getNumero());
+
+        System.out.println("valor venta calzado deportivo:"+deportivo.valorVenta());
     }
 }
